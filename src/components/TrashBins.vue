@@ -3,11 +3,11 @@ export default {
   data() {
     return {
       bins: [
-        { color: 'Red', image: '/bins/red.png' },
-        { color: 'Yellow', image: '/bins/yellow.png' },
-        { color: 'Green', image: '/bins/green.png' },
-        { color: 'Blue', image: '/bins/blue.png' },
-        { color: 'Black', image: '/bins/black.png' },
+        { color: 'Red', image: '/bins/red.webp' },
+        { color: 'Yellow', image: '/bins/yellow.webp' },
+        { color: 'Green', image: '/bins/green.webp' },
+        { color: 'Blue', image: '/bins/blue.webp' },
+        { color: 'Black', image: '/bins/black.webp' },
       ],
     };
   },

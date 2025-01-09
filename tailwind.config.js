@@ -45,9 +45,9 @@ module.exports = {
         'black-back': '#424242b7',
       },
       backgroundImage: {
-        'back-photo': "url('/listva-1.png')",
-        'about-photo': "url('/listva-2.jpg')",
-        'game-photo': "url('/listva-3.jpg')",
+        'back-photo': "url('/listva-1.webp')",
+        'about-photo': "url('/listva-2.webp')",
+        'game-photo': "url('/listva-3.webp')",
       },
       borderWidth: {
         '6': '6px'

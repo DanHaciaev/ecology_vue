@@ -9,7 +9,7 @@
                 <p class="text-2xl font-bold" :class="bin.colorText">Example</p>
                 <div class="grid grid-cols-3 gap-4 mt-8">
                     <div v-for="(waste, index) in bin.wasteImages" :key="index" class="flex flex-col items-center px-8 py-2 rounded-30" :class="bin.bgClass">
-                        <img :src="waste.src" :alt="waste.label" class="w-20 h-20 mb-2" />
+                        <img :src="waste.src" :alt="waste.label" class="w-16 mb-2" />
                         <span class="text-center text-white">{{ waste.label }}</span>
                     </div>
                 </div>
@@ -31,72 +31,72 @@ export default {
             bins: {
                 red: {
                     color: 'Red Bin - Non-Recyclable waste',
-                    image: '/bins/red.png',
+                    image: '/bins/red.webp',
                     bgClass: 'bg-red-back',
                     colorText: 'text-red-bin',
                     wasteImages: [
-                        { src: '/red/cutlery.png', label: 'Plastic cutlery' },
-                        { src: '/red/diaper.png', label: 'Diapers' },
-                        { src: '/red/medicine.png', label: 'Blister packs' },
-                        { src: '/red/tape.png', label: 'Scotch tape' },
-                        { src: '/red/toothbrush.png', label: 'Toothbrush' },
-                        { src: '/red/wipes.png', label: 'Wet wipes' },
+                        { src: '/red/cutlery.webp', label: 'Plastic cutlery' },
+                        { src: '/red/diaper.webp', label: 'Diapers' },
+                        { src: '/red/medicine.webp', label: 'Blister packs' },
+                        { src: '/red/tape.webp', label: 'Scotch tape' },
+                        { src: '/red/toothbrush.webp', label: 'Toothbrush' },
+                        { src: '/red/wipes.webp', label: 'Wet wipes' },
                     ]
                 },
                 yellow: {
                     color: 'Yellow Bin - Plastic',
-                    image: '/bins/yellow.png',
+                    image: '/bins/yellow.webp',
                     bgClass: 'bg-yellow-back',
                     colorText: 'text-yellow-bin',
                     wasteImages: [
-                        { src: '/yellow/bucket.png', label: 'Plastic buckets' },
-                        { src: '/yellow/can.png', label: 'Tin Cans' },
-                        { src: '/yellow/milk.png', label: 'Milk cartons' },
-                        { src: '/yellow/mineral_water.png', label: 'Plastic bottles' },
-                        { src: '/yellow/plastic_bag.png', label: 'Bags' },
-                        { src: '/yellow/shampoo.png', label: 'Shampoos' },
+                        { src: '/yellow/bucket.webp', label: 'Plastic buckets' },
+                        { src: '/yellow/can.webp', label: 'Tin Cans' },
+                        { src: '/yellow/milk.webp', label: 'Milk cartons' },
+                        { src: '/yellow/mineral_water.webp', label: 'Plastic bottles' },
+                        { src: '/yellow/plastic_bag.webp', label: 'Bags' },
+                        { src: '/yellow/shampoo.webp', label: 'Shampoos' },
                     ]
                 },
                 green: {
                     color: 'Green Bin - Glass',
-                    image: '/bins/green.png',
+                    image: '/bins/green.webp',
                     bgClass: 'bg-green-back',
                     colorText: 'text-green-bin',
                     wasteImages: [
-                        { src: '/green/glass_bottle.png', label: 'Glass bottle' },
-                        { src: '/green/glass_crack.png', label: 'Broken glass' },
-                        { src: '/green/glass_jar.png', label: 'Glass jar' },
-                        { src: '/green/light_bulb.png', label: 'Light bulb' },
-                        { src: '/green/vial.png', label: 'Glass flask' },
-                        { src: '/green/vitamin.png', label: 'Vitamin bottle' },
+                        { src: '/green/glass_bottle.webp', label: 'Glass bottle' },
+                        { src: '/green/glass_crack.webp', label: 'Broken glass' },
+                        { src: '/green/glass_jar.webp', label: 'Glass jar' },
+                        { src: '/green/light_bulb.webp', label: 'Light bulb' },
+                        { src: '/green/vial.webp', label: 'Glass flask' },
+                        { src: '/green/vitamin.webp', label: 'Vitamin bottle' },
                     ]
                 },
                 blue: {
                     color: 'Blue Bin - Paper',
-                    image: '/bins/blue.png',
+                    image: '/bins/blue.webp',
                     bgClass: 'bg-blue-back',
                     colorText: 'text-blue-bin',
                     wasteImages: [
-                        { src: '/blue/birthday_card.png', label: 'Greeting cards' },
-                        { src: '/blue/calendar.png', label: 'Calendar' },
-                        { src: '/blue/magazine.png', label: 'Magazine' },
-                        { src: '/blue/newspaper.png', label: 'Newspaper' },
-                        { src: '/blue/notepad.png', label: 'Notebook' },
-                        { src: '/blue/paper.png', label: 'Colored paper' },
+                        { src: '/blue/birthday_card.webp', label: 'Greeting cards' },
+                        { src: '/blue/calendar.webp', label: 'Calendar' },
+                        { src: '/blue/magazine.webp', label: 'Magazine' },
+                        { src: '/blue/newspaper.webp', label: 'Newspaper' },
+                        { src: '/blue/notepad.webp', label: 'Notebook' },
+                        { src: '/blue/paper.webp', label: 'Colored paper' },
                     ]
                 },
                 black: {
                     color: 'Black Bin - Food waste',
-                    image: '/bins/black.png',
+                    image: '/bins/black.webp',
                     bgClass: 'bg-black-back',
                     colorText: 'text-black-bin',
                     wasteImages: [
-                        { src: '/black/coffee_bean.png', label: 'Coffee' },
-                        { src: '/black/condiments.png', label: 'Seasonings' },
-                        { src: '/black/fish_bone.png', label: 'Food bones' },
-                        { src: '/black/fruit.png', label: 'Fruits' },
-                        { src: '/black/pizza.png', label: 'Food' },
-                        { src: '/black/spices.png', label: 'Spices' },
+                        { src: '/black/coffee_bean.webp', label: 'Coffee' },
+                        { src: '/black/condiments.webp', label: 'Seasonings' },
+                        { src: '/black/fish_bone.webp', label: 'Food bones' },
+                        { src: '/black/fruit.webp', label: 'Fruits' },
+                        { src: '/black/pizza.webp', label: 'Food' },
+                        { src: '/black/spices.webp', label: 'Spices' },
                     ]
                 },
             },
